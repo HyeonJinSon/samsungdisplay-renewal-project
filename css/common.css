@@ -267,6 +267,10 @@ header h1 {
   vertical-align: middle;
   font-size: 32px;
   font-weight: 600;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
 }
 .logo span {
   margin-left: 5px;
@@ -700,9 +704,9 @@ footer .copyright p {
   z-index: 200;
 }
 
-/* POPUP */
+/* portfolio notice */
 dialog {
-  width: 420px;
+  width: 500px;
   position: fixed;
   left: -50vw;
   top: 17.78vh;
