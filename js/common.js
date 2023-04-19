@@ -24,7 +24,7 @@ $window.resize(function () {
         toggle.on("click", function () {
             if (toggle.prop("checked")) {
                 overlay.addClass("active");
-                console.log("1");
+                // console.log("1");
             } else {
                 overlay.removeClass("active");
             }
@@ -98,7 +98,7 @@ $window.scroll(function () {
 $window.trigger("scroll");
 
   $('.overlay-m-menu-list > li').click(function(){
-    console.log($(this));
+    // console.log($(this));
     $(this).find('ul').slideDown();
     $(this).siblings().find('ul').slideUp();
   })
@@ -111,7 +111,7 @@ $btt.hide();
 
 $window.scroll(function () {
   let scrollAmt = $(this).scrollTop();
-  console.log(scrollAmt);
+  // console.log(scrollAmt);
   scrollAmt > 300 ? $btt.fadeIn() : $btt.fadeOut();
 });
 

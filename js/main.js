@@ -15,7 +15,7 @@ window.addEventListener("resize", () => {
       if (toggle.checked) {
         openMobileMenu.style.opacity = "1";
         openMobileMenu.style.visibility = "visible";
-        console.log("0");
+        // console.log("0");
       } else {
         openMobileMenu.style.opacity = "0";
         openMobileMenu.style.visibility = "hidden";
@@ -25,7 +25,7 @@ window.addEventListener("resize", () => {
     toggle.addEventListener("click", () => {
       if (toggle.checked) {
         overlay.classList.add("active");
-        console.log("1");
+        // console.log("1");
       } else {
         overlay.classList.remove("active");
       }
@@ -105,7 +105,7 @@ function pcAnimation() {
     Logo = document.querySelector(".logo a"),
     Menu = document.querySelectorAll(".menu-color");
   window.addEventListener("scroll", () => {
-    console.log(window.pageYOffset);
+    // console.log(window.pageYOffset);
     if (window.pageYOffset >= 810) {
       for (let i = 0; i < samsungDisplay.length; i++) {
         let item = samsungDisplay[i];
